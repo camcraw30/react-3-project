@@ -1,0 +1,15 @@
+.navbar {
+    background: rgb(66, 140, 189);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.homeText {
+    position: relative;
+    left: 7vw;
+    font-weight: 600;
+    font-size: 1.3em;
+}

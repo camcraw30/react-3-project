@@ -1,0 +1,52 @@
+.body {
+  background: rgb(19, 19, 19);
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.whiteCard {
+  background: rgba(235, 235, 235, 0.877);
+  height: 50vh;
+  width: 80vw;
+  margin-bottom: 5vh;
+}
+
+.buttons {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button:hover{
+  cursor: pointer;
+  color: rgb(66, 140, 189);
+}
+
+.buttons button {
+  border: none;
+  color: white;
+  background: rgb(19, 19, 19);
+  font-size: 1.5em;
+  transition:  .5s;
+}
+
+.blackDiamond {
+  display: flex;
+  justify-content: space-between;
+  width: 15vw;
+}
+
+.blackDiamond button {
+  background: rgb(66, 140, 189);
+  border-radius: 20px;
+  height: 5vh;
+  font-size: 1.3em;
+}
+
+.blackDiamond button:hover {
+  color: rgb(19, 19, 19);
+}

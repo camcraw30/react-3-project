@@ -1,0 +1,48 @@
+.employee {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 5vw;
+}
+
+.id {
+    font-size: 1.5em;
+    font-weight: 600;
+    position: relative;
+    left: 71vw;
+    top: 1vh;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration:  rgb(66, 140, 189) underline;
+
+}
+
+.info {
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.movies {
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.movies p {
+    font-size: .85em;
+    font-weight: 540;
+    position: relative;
+    left: 2vw;
+}
